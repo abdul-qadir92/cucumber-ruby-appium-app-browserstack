@@ -4,13 +4,16 @@ common_caps:
   "browserstack.user": "BROWSERSTACK_USERNAME"
   "browserstack.key": "BROWSERSTACK_ACCESS_KEY"
   "project": "First Cucumber Android Project"
-  "build": "browserstack-build-1"
+  "build": "Ruby-Cucumber-build-1"
+  "name": "local_test"
   "browserstack.debug": true
+  "browserstack.networkLogs": true
+  "automationName": 'Appium'
+  "platformName": 'Android'
+  "browserstack.local": true
+  "app": "bs://0554a681c88c0d5876bd6619900411750ac10299"
 
 browser_caps:
   -
     "device": "Google Pixel 3"
     "os_version": "9.0"
-    "app": "bs://<app-id>"
-    "browserstack.local": true
-    "name": "local_test"

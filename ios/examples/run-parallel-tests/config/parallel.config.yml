@@ -1,18 +1,21 @@
 server: "hub-cloud.browserstack.com"
 
 common_caps:
-  "browserstack.user": "BROWSERSTACK_USERNAME"
-  "browserstack.key": "BROWSERSTACK_ACCESS_KEY"
-  "project": "First Cucumber iOS Project"
-  "build": "browserstack-build-1"
-  "app": "bs://<app-id>"
+  "browserstack.user": ""
+  "browserstack.key": ""
+  "project": "Ruby Cucumber iOS Project"
+  "build": "Ruby-Cucumber-build-1"
+  "name": "parallel_test_1"
+  "browserstack.debug": true
+  "browserstack.networkLogs": true
+  "platformName": 'iOS'
+  "app": "bs://295be5520a1498740f20858a3ad2af9426756a83"
 
 browser_caps:
   -
     "device": "iPhone 11 Pro"
     "os_version": "13"
-    "name": "parallel_test_1"
+
   -
     "device": "iPhone 11 Pro Max"
     "os_version": "13"
-    "name": "parallel_test_2"

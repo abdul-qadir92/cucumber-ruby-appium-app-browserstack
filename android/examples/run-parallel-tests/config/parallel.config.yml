@@ -1,19 +1,22 @@
 server: "hub-cloud.browserstack.com"
 
 common_caps:
-  "browserstack.user": "BROWSERSTACK_USERNAME"
-  "browserstack.key": "BROWSERSTACK_ACCESS_KEY"
-  "project": "First Cucumber Android Project"
-  "build": "browserstack-build-1"
+  "browserstack.user": ""
+  "browserstack.key": ""
+  "project": "Ruby Cucumber Android Project"
+  "build": "Ruby-Cucumber-build-1"
+  "name": "parallel_test_1"
   "browserstack.debug": true
-  "app" : "bs://<app-id>"
+  "browserstack.networkLogs": true
+  "automationName": 'Appium'
+  "platformName": 'Android'
+  "app" : "bs://383b34eab9e792fd5962c4631d04069a8c8eeec3"
 
 browser_caps:
   -
     "device": "Google Pixel 3"
     "os_version": "9.0"
-    "name": "parallel_test_1"
+
   -
     "device": "Samsung Galaxy S10e"
     "os_version": "9.0"
-    "name": "parallel_test_2"
